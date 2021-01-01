@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/forecast/static/css/main.5175fb03.chunk.css",
+    "main.js": "/forecast/static/js/main.08776e1d.chunk.js",
+    "main.js.map": "/forecast/static/js/main.08776e1d.chunk.js.map",
+    "runtime-main.js": "/forecast/static/js/runtime-main.180978f3.js",
+    "runtime-main.js.map": "/forecast/static/js/runtime-main.180978f3.js.map",
+    "static/js/2.2d3c17a1.chunk.js": "/forecast/static/js/2.2d3c17a1.chunk.js",
+    "static/js/2.2d3c17a1.chunk.js.map": "/forecast/static/js/2.2d3c17a1.chunk.js.map",
+    "static/js/3.84e55778.chunk.js": "/forecast/static/js/3.84e55778.chunk.js",
+    "static/js/3.84e55778.chunk.js.map": "/forecast/static/js/3.84e55778.chunk.js.map",
+    "index.html": "/forecast/index.html",
+    "static/css/main.5175fb03.chunk.css.map": "/forecast/static/css/main.5175fb03.chunk.css.map",
+    "static/js/2.2d3c17a1.chunk.js.LICENSE.txt": "/forecast/static/js/2.2d3c17a1.chunk.js.LICENSE.txt",
+    "static/media/cloudy-day.7fb7ecfc.svg": "/forecast/static/media/cloudy-day.7fb7ecfc.svg",
+    "static/media/cloudy-night.4a43954d.svg": "/forecast/static/media/cloudy-night.4a43954d.svg",
+    "static/media/day.c33ef664.svg": "/forecast/static/media/day.c33ef664.svg",
+    "static/media/drizzle.44fb8223.svg": "/forecast/static/media/drizzle.44fb8223.svg",
+    "static/media/rainy.130d6250.svg": "/forecast/static/media/rainy.130d6250.svg",
+    "static/media/snowy.dce3f5e7.svg": "/forecast/static/media/snowy.dce3f5e7.svg",
+    "static/media/thunder.19ff3c30.svg": "/forecast/static/media/thunder.19ff3c30.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.180978f3.js",
+    "static/js/2.2d3c17a1.chunk.js",
+    "static/css/main.5175fb03.chunk.css",
+    "static/js/main.08776e1d.chunk.js"
+  ]
+}
