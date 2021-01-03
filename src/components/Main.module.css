@@ -5,6 +5,7 @@
     flex-direction: column;
     padding-top: 20px ;
 }
+
 .modal{
     display: none;
     position: relative;

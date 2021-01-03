@@ -11,6 +11,11 @@ export const weatherApi = {
     
     byCityName(city){
         return instance.get(`weather?q=${city}&units=metric&lang=ru&appid=471fb871540b1cabfd3ed0bce031cb0d`)
+    },
+
+    forWeek(city){
+        return instance.get(`forecast?q=${city}&lang=ru&units=metric&appid=471fb871540b1cabfd3ed0bce031cb0d`)
+        .then( res => res.data.list ) 
     }
 }
 

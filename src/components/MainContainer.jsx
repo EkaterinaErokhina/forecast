@@ -1,14 +1,16 @@
 import react, {useEffect, useState} from 'react';
 import Main from './Main';
 import {weatherApi} from '../api/api';
-import Modal from './Modal';
+import Searching from './Searching';
 import Loader from '../loader/Loader';
+import WeeksForecastContainer from './WeeksForecastContainer';
 
 const MainContainer = () => {
 
     const [isLoader, setIsLoader] = useState(true);
     const [currentGeo, setCurrentGeo] = useState({});
-    const [isModal, setIsModal] = useState(false);
+    const [isSearching, setIsSearching] = useState(false);
+    const [weekForecast, setWeekForecast] = useState({ isOpen: false, city: null });
     const [locations, setLocations] = useState([]);
 
     useEffect( () => {
@@ -65,16 +67,21 @@ const MainContainer = () => {
         ? <Loader />
         : <Main     
           currentGeo = {currentGeo} 
-          setIsModal = {setIsModal}
-          isModal = {isModal} 
+          setIsSearching = {setIsSearching}
+          isSearching = {isSearching} 
           locations = {locations} 
-          deleteCity = {deleteCity} />
+          deleteCity = {deleteCity} 
+          setWeekForecast = {setWeekForecast}
+          isFixed = {weekForecast.isOpen} />
         }
-        { isModal && 
-        <Modal
-        setIsModal = {setIsModal}
+        { isSearching && 
+        <Searching
+        setIsSearching = {setIsSearching}
         getWeatherByName = {getWeatherByName}/> }
-
+        
+        { weekForecast.isOpen &&
+        <WeeksForecastContainer city = { weekForecast.city } />
+        }
         </>
     )
 }

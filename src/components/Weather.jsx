@@ -11,8 +11,6 @@ import clearDay from '../img/day.svg';
 import Loader from '../loader/Loader';
 
 const Weather = (props) => {
-    console.log('родилась' + props.name);
-
     let img;
     switch (props.icon){
         case "Clouds": 
@@ -44,7 +42,7 @@ const Weather = (props) => {
             break;
     }
     return(
-        <div className = {s.weatherBlock}>
+        <div className = {s.weatherBlock} onClick = { () => props.setWeekForecast( { isOpen: true, city: props.name } ) }>
             <div className = {s.weather}>
                 {props.deleteCity && 
                 <div className = {s.delete}>
