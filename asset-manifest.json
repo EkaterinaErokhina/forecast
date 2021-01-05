@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/forecast/static/css/main.8db58f5c.chunk.css",
-    "main.js": "/forecast/static/js/main.340092b0.chunk.js",
-    "main.js.map": "/forecast/static/js/main.340092b0.chunk.js.map",
+    "main.css": "/forecast/static/css/main.b74452db.chunk.css",
+    "main.js": "/forecast/static/js/main.03906d2b.chunk.js",
+    "main.js.map": "/forecast/static/js/main.03906d2b.chunk.js.map",
     "runtime-main.js": "/forecast/static/js/runtime-main.9bf9e659.js",
     "runtime-main.js.map": "/forecast/static/js/runtime-main.9bf9e659.js.map",
     "static/css/2.b3443363.chunk.css": "/forecast/static/css/2.b3443363.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.bcfbf910.chunk.js.map": "/forecast/static/js/3.bcfbf910.chunk.js.map",
     "index.html": "/forecast/index.html",
     "static/css/2.b3443363.chunk.css.map": "/forecast/static/css/2.b3443363.chunk.css.map",
-    "static/css/main.8db58f5c.chunk.css.map": "/forecast/static/css/main.8db58f5c.chunk.css.map",
+    "static/css/main.b74452db.chunk.css.map": "/forecast/static/css/main.b74452db.chunk.css.map",
     "static/js/2.7de7a692.chunk.js.LICENSE.txt": "/forecast/static/js/2.7de7a692.chunk.js.LICENSE.txt",
     "static/media/cloudy-day.7fb7ecfc.svg": "/forecast/static/media/cloudy-day.7fb7ecfc.svg",
     "static/media/cloudy-night.4a43954d.svg": "/forecast/static/media/cloudy-night.4a43954d.svg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.9bf9e659.js",
     "static/css/2.b3443363.chunk.css",
     "static/js/2.7de7a692.chunk.js",
-    "static/css/main.8db58f5c.chunk.css",
-    "static/js/main.340092b0.chunk.js"
+    "static/css/main.b74452db.chunk.css",
+    "static/js/main.03906d2b.chunk.js"
   ]
 }
